@@ -27,8 +27,7 @@
         };
     };
 
-/ {
-        behaviors {
+    behaviors {
             // Эта функция отвечает за добавление на крутилки изменения цвета
 
             rgb_rot: rgb_rotate {
@@ -37,7 +36,6 @@
                 bindings = <&rgb_ug>, <&rgb_ug>;
             };
         };
-    };
 
     keymap {
         compatible = "zmk,keymap";
